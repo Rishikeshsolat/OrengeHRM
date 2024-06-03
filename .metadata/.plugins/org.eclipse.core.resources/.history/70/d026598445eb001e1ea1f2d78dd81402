@@ -1,0 +1,9 @@
+package com.MulyilevelInheritance.constructor;
+
+public class Dogg {
+
+	public Dogg() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

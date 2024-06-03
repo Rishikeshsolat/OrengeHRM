@@ -1,0 +1,18 @@
+package com.MulyilevelInheritance.constructor;
+
+class Animal
+{
+	String name;
+	
+	Animal()
+	{
+		this.name = name;
+		
+		System.out.println(name +"is my animal");
+	}
+	
+	public void eat ()
+	{
+		System.out.println(name+"is eatingg");
+	}
+}

@@ -1,0 +1,14 @@
+package com.MulyilevelInheritance.constructor;
+
+public class MAin {
+
+	
+	 public static void main(String[] args) {
+	     Labrador myLabrador = new Labrador("Buddy");
+
+	     myLabrador.eat(); // Accessing eat() method from Animal class
+	     myLabrador.bark(); // Accessing bark() method from Dog class
+	     myLabrador.play(); // Accessing play() method from Labrador class
+	 }
+	}
+

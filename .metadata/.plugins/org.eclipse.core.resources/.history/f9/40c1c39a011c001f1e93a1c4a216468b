@@ -1,0 +1,26 @@
+package Practice;
+
+import java.util.Iterator;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class multiWindow {
+
+	public static void main(String[] args) {
+		WebDriver dri = new ChromeDriver();
+		dri.manage().window().maximize();
+		dri.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		dri.navigate().to("https://demoqa.com/browser-windows");
+		dri.findElement(By.xpath("//button[@id='tabButton']")).click();
+		Set<String>win =dri.getWindowHandles();
+		Iterator<String>it = win.iterator();
+		String win1 = it.next();
+		String win2 = it.next();
+
+	}
+
+}

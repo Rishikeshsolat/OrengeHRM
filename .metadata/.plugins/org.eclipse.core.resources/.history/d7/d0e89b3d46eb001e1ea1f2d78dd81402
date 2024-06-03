@@ -1,0 +1,9 @@
+package com.MulyilevelInheritance.constructor;
+
+public class Labradog {
+
+	public Labradog() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,10 @@
+package Testng;
+
+public class TestngPractice {
+	
+	
+	public void a1() {
+		System.out.println("A1 test method");
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.MulyilevelInheritance.constructor;
+
+public class Dogg extends Animal {
+
+	Dogg ()
+	{
+		super.name = name;
+	}
+		public void barking () {
+		
+			System.out.println( name+"is barking");
+		}
+
+}

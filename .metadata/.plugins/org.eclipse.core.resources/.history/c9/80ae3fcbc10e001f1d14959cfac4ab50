@@ -1,0 +1,19 @@
+package com.febbatch;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Classic {
+	
+	public static void main(String[] args) {
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://www.facebook.com/");
+	driver.findElement(By.id("email")).sendKeys("rishikeshsolat@facebook.in");
+	driver.findElement(By.id("Password")).sendKeys("@4514");
+	driver.findElement(By.name("login")).click();
+	driver.findElement(By.name("creat new account")).click();
+	
+	}
+	}
+

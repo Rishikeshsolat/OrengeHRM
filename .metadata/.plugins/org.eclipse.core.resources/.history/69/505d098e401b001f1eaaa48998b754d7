@@ -1,0 +1,25 @@
+package Practice;
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class Scroll {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver dri = new ChromeDriver();
+		dri.manage().window().maximize();
+		dri.get("http://only-testing-blog.blogspot.com/2014/01/textbox.html");
+		dri.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		JavascriptExecutor jse =  (JavascriptExecutor)dri;
+		jse.executeScript("document.getElementById('text2').value='Trushant'");
+		Thread.sleep(2000);
+		jse.executeScript("window.scrollBy(0,300)");
+
+	}
+
+}

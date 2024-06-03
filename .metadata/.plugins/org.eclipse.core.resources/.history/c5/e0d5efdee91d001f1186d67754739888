@@ -1,0 +1,8 @@
+
+public class Maintance {
+
+	
+	
+//	(//a[@class='oxd-main-menu-item'])[9] 
+	@findBy(xpath="(//a[@class='oxd-main-menu-item'])[9]")WebElement maintance;
+}

@@ -1,0 +1,25 @@
+package Testng;
+
+public class skipTestCases {
+	
+	public void a() {
+		System.out.println(" a method");
+	}
+	
+	public void b() {
+		System.out.println("b method");
+	}
+	
+	public void c() {
+		System.out.println("c method");
+	}
+	
+	public void d() {
+		System.out.println("d method");
+	}
+	
+	public void e() {
+		System.out.println("e method");
+	}
+
+}

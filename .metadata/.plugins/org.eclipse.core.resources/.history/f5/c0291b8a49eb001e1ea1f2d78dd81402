@@ -1,0 +1,12 @@
+package com.MulyilevelInheritance.constructor;
+
+public class Labradog extends Dogg {
+
+	public Labradog(String name) {
+		super.name = name;
+	}
+	public void play(String name)
+	{
+		System.out.println(name +" is playing");
+	}
+}

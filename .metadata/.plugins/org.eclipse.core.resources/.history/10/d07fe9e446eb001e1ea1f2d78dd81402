@@ -1,0 +1,11 @@
+package com.MulyilevelInheritance.constructor;
+
+public class Dogg extends Animal {
+
+	public Dogg()
+	{
+		super.name;
+	}
+		
+
+}
